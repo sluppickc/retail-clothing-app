@@ -9,8 +9,8 @@
 import Foundation
 
 class DataService {
-    // Singleton - stays as long as your app is running, does not get wiped from memory
-    // Static = only one copy in reference
+    // Singleton - caution: stays as long as your app is running, does not get wiped from memory
+    // Static = holds only one copy in memory
     static let instance = DataService()
     
     private let categories = [
