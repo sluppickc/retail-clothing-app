@@ -1,0 +1,15 @@
+//
+//  ProductCell.swift
+//  retail-clothing-app
+//
+//  Created by Chris Sluppick on 4/2/18.
+//  Copyright © 2018 Chris Sluppick. All rights reserved.
+//
+
+import UIKit
+
+class ProductCell: UICollectionViewCell {
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productTitle: UILabel!
+    @IBOutlet weak var productPrice: UILabel!
+}
